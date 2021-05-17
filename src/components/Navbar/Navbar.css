@@ -1,0 +1,41 @@
+.btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:focus {
+    font-weight:800;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navbar__logo {
+
+}
+
+.navbar__img {
+
+}
+
+.navbar__ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+   
+}
+
+.navbar__li {
+    padding-left: 3em;
+
+}
+
+.navbar__li:nth-child(5) {
+    margin-right: 3em;
+}
