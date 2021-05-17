@@ -1,11 +1,34 @@
-import React from 'react'
+import React from "react";
+import "./Header.css";
+import logo from "../images/logo.svg";
 
-function Header() {
-    return (
-        <div>
-            
+const Header = () => {
+  return (
+    <>
+      <header>
+        <div className="logo">
+          <img src={logo} alt="Loopstudios" />
         </div>
-    )
-}
+        
+          <nav>
+            <ul>
+              <li><button>About</button></li>
+              <li><button>Careers</button></li>
+              <li><button>Events</button></li>
+              <li><button>Products</button></li>
+              <li><button>Support</button></li>
+            </ul>
+          </nav>
+        
+        <div className='menu-btn'>
+            <div className="bar-bar-1"></div>
+            <div className="bar-bar-2"></div>
+            <div className="bar-bar-3"></div>
 
-export default Header
+        </div>
+      </header>
+    </>
+  );
+};
+
+export default Header;

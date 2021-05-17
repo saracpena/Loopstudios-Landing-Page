@@ -1,9 +1,47 @@
-* {
-  box-sizing: border-box;
+@import url(https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap);
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --dark-gray: hsl(0, 0%, 55%);
+  --very-dark-gray: hsl(0, 0%, 41%);
 }
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+h1,h2,h3,h4,h5,h6  {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  border: 1px solid white;
+}
+
 body {
-  margin: 0;
-  font-family: 'Alata', sans-serif,'Josefin Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+p {
+  font-size: 15px;
+  font-family: 'Atlata', sans-serif;
+}
+
+.hero {
+  background-image: url(./images/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.hero .overlay {
+  display: flex;
+  align-items: center;
+  height: 700px;
+  line-height: 1.5;
+  padding: 0, 0, 0, 25px;
 }
